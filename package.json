@@ -3,13 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "^3.3.1",
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-bootstrap-table": "^4.3.1",
+    "react-cookie": "2.2.0",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-popper": "^1.0.0-beta.6",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.0.4",
+    "react-table": "^6.8.6",
+    "reactstrap": "6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "stop": "pkill --signal SIGINT automated-testing-ws-ui",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
